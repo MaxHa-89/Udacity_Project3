@@ -1,3 +1,17 @@
+
+Frontend Ionic laufen lassen ng run app:serve --host=0.0.0.0 --port=8080 --disable-host-check
+
+Umgebungsvariablen setzen: source set_env.sh
+
+Prüfung Umgebungsvariablen env
+    
+    Problem: kein Zugriff auf Datenbank und Bucket -> falsch angegeben?!
+
+
+
+
+
+
 # Udagram Image Filtering Application
 
 Udagram is a simple cloud application developed alongside the Udacity Cloud Engineering Nanodegree. It allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice.
