@@ -15,10 +15,16 @@ before_script:
 
 script:
   - docker --version # print the version for logging
-  - docker build -t simple-node .
-  - docker tag simple-node maxha89/simple-node:latest
+  - docker build -t feedapi udagram-feed_api
+  - docker build -t frontend udagram-frontend
+  - docker build -t userapi udagram-user_api
+  - docker tag feedapi maxha89/feedapi:latest
+  - docker tag frontend maxha89/frontend:latest
+  - docker tag userapi maxha89/userapi:latest
 
 # Tasks to perform after the process is successful. Formatting the Docker username and password as below enables you to programmatically log in without having the password exposed in logs.
 after_success:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-  - docker push YOUR_DOCKER_HUB/simple-node
+  - docker push maxha89/feedapi
+  - docker push maxha89/frontend
+  - docker push maxha89/userapi
