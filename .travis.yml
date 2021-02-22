@@ -18,7 +18,7 @@ script:
   - docker build -t feedapi udagram-feed_api
   - docker build -t frontend udagram-frontend
   - docker build -t userapi udagram-user_api
-  - docker build -t reverseproxy
+  - docker build -t reverseproxy Reverseproxy
   
   - docker tag feedapi maxha89/feedapi:latest
   - docker tag frontend maxha89/frontend:latest

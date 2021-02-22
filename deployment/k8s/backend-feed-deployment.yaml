@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - image: max89/feedapi
-        name: max89/feedapi
+        name: backend-feed
         imagePullPolicy: Always          
         resources:
           requests:

@@ -16,7 +16,7 @@ spec:
         api: external
     spec:
       containers:
-      - image: datacamp265/udacity-frontend
+      - image: maxha89/frontend
         name: frontend
         imagePullPolicy: Always          
         resources:
