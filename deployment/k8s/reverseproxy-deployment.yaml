@@ -15,7 +15,7 @@ spec:
         service: reverseproxy
     spec:
       containers:
-      - image: datacamp265/reverseproxy
+      - image: maxha89/reverseproxy
         name: reverseproxy
         imagePullPolicy: Always          
         resources:
