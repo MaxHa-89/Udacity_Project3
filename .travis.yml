@@ -32,4 +32,4 @@ after_success:
   - docker push maxha89/feedapi
   - docker push maxha89/frontend
   - docker push maxha89/userapi
-  - docker push max89/reverseproxy
+  - docker push maxha89/reverseproxy
