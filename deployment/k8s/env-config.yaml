@@ -3,10 +3,10 @@ kind: ConfigMap
 data:
   AWS_MEDIA_BUCKET: project3-669157684851-dev
   AWS_PROFILE: 669157684851_admin_eu-central-1
-  AWS_REGION: us-east-1d
+  AWS_REGION: eu-central-1
   JWT_SECRET: hammond3
-  POSTGRES_DATABASE: postgres
-  POSTGRES_HOST: database-projekt3.crpukafm4hv6.us-east-1.rds.amazonaws.com
-  URL: http://localhost:8100
+  POSTGRES_DB: postgres
+  POSTGRES_HOST: database-1-project3.c3ytwaqcaumd.eu-central-1.rds.amazonaws.com
+  URL: "*"
 metadata:
   name: env-config
