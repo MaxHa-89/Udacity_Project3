@@ -15,8 +15,8 @@ spec:
         service: backend-feed
     spec:
       containers:
-      - image: max89/feedapi
-        name: backend-feed
+      - image: maxha89/feedapi
+        name: feedapi
         imagePullPolicy: Always          
         resources:
           requests:
