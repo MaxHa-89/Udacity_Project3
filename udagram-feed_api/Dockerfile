@@ -19,4 +19,4 @@ RUN npm run tsc
 EXPOSE 8080
 
 # Define Docker’s behavior when the image is run
-CMD ["node", "./www/server.js"]
+CMD ["npm", "run", "dev"]
