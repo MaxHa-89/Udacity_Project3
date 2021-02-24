@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - image: maxha89/userapi
-        name: backend-user
+        name: userapi
         imagePullPolicy: Always          
         resources:
           requests:
